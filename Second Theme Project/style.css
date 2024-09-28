@@ -1,0 +1,33 @@
+/*
+Theme Name: Second theme project
+Theme URI: https:theyellowstrawberry.com
+Author: the WordPress team
+Author URI: https://theyellowstrawberry.com
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+#wpadminbar{
+    display: none;
+}
+body{
+    background-color: #000 ;
+    color: white;
+    padding-top: 70px;
+}
+a.navbar-brand img {
+    height: auto;
+    width: 150px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input{
+    color: #333;
+}
+img{
+    width: 100%;
+}

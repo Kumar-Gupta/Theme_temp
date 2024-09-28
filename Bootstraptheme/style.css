@@ -1,0 +1,65 @@
+/* 
+Theme Name: Bootstrap theme template
+Theme URI: https://theme_dev/
+Author: Kumar Manglam Gupta
+Author URI: https://github.com/Kumar-Gupta/Theme_temp
+Description: Bootstap Theme for DEMO
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+#wpadminbar {
+    display: none;
+}
+body{
+    background-color: #f9f9fa;
+    /* background-color: black; */
+    padding-top: 70px;
+}
+.dropdown-menu{
+    font-size: small;
+} 
+a.navbar-brand img{
+    height: auto;
+    width: 150px;
+}
+.feature_holder img{
+    width: 65px;
+    height: auto;
+    padding-left:10px;
+}
+.main-content h2{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.main-content img{
+    max-width: 100%;
+    max-height: auto;
+}
+blockquote {
+    padding: 15px;
+    background-color: #e3e3e3;
+    border-left: 3px solid black;
+}
+pre{
+    padding: 15px;
+    background-color: #e3e3e3;
+    border: 1px solid #c4c4c4;
+    border-radius: 3px;
+}
+.course-syllabus ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    columns: 2;
+}
+
+.course-syllabus ul > li {
+    display: inline-block;
+    background-color: purple;
+    color: white;
+    padding: 12px;
+    margin: 5px;
+    width: 200px;
+    border-radius: 4px;
+}

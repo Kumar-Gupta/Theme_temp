@@ -1,0 +1,38 @@
+/* 
+Theme Name: Bootstrap theme template
+Theme URI: https://localhost/Basic-Ecom/
+Author: Kumar Manglam Gupta
+Author URI: https://github.com/Kumar-Gupta/Theme_temp
+Description: Ecommerce Theme project from the course
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+#wpadminbar {
+    display: none;
+}
+body{
+    background-color: #f9f9fa;
+    /* background-color: black; */
+    padding-top: 70px;
+}
+.dropdown-menu{
+    font-size: small;
+} 
+a.navbar-brand img{
+    height: auto;
+    width: 150px;
+}
+.feature_holder img{
+    width: 65px;
+    height: auto;
+    padding-left:10px;
+}
+.main-content h2{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.main-content img{
+    max-width: 100%;
+    max-height: auto;
+}

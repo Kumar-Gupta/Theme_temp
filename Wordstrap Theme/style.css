@@ -1,0 +1,39 @@
+/* 
+Theme Name: Wordstrap Theme
+Theme URI: https://theme_dev/
+Author: Kumar Manglam Gupta
+Author URI: https://github.com/Kumar-Gupta/Theme_temp
+Description: Bootstap Theme for DEMO
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+#wpadminbar {
+    display: none;
+}
+body{
+    background-color: #f9f9fa;
+    /* background-color: black; */
+    padding-top: 70px;
+}
+.dropdown-menu{
+    font-size: small;
+} 
+a.navbar-brand img{
+    height: auto;
+    width: 150px;
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+    padding: 0rem;
+}
+ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+.meta{
+    padding:8px 15px;
+    background-color: #f4f4f4;
+    color: #333;
+}
